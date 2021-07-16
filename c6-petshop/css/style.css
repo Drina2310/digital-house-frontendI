@@ -140,7 +140,7 @@ h2{
     text-align: center;
 }
 
-.form input{
+input{
     background: #3C2313;
     border: none;
     border-radius: 15px;
@@ -151,7 +151,7 @@ h2{
     width: 80%;
 }
 
-.form button{
+button{
     width: 48%;
     height: 10vh;
     border: none;
@@ -166,6 +166,77 @@ h2{
     margin-bottom: 3rem;
 }
 
+.subscription{
+    background: #F0A83E;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    width: 100%;
+}
+
+.subscription span{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding-left: 1rem;
+}
+
+.subscription input{
+    background: #FFFFFF;
+    width: 70%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.subscription button{
+    width: 25%;
+    background: #3C2313;
+    height: 8vh;
+}
+
+.banner-two{
+    background: #3C2313;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+.banner-two .logo{
+    padding: 1rem 0 1rem;
+    text-align: center;
+}
+
+.banner-two .span-catdog{
+    color: #F0A83E;
+}
+
+.banner-two .front{
+    color: #FFFFFF;
+}
+
+.icono{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    width: 80%;
+}
+
+.icono .title{
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.icono p{
+    color: #8A8787;
+
+}
+
+footer{
+    background: #222222;
+    color: #FFFFFF;
+    text-align: center;
+}
 /*
 .headboard-one{
     background: #222222;
