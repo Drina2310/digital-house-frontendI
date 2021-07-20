@@ -324,6 +324,17 @@ footer{
     .subscription button{
         width: 10%;
     }
+
+    .banner-two{
+        position: relative;
+        padding-top: 1.5rem;
+    }
+
+    .banner-two .logo{
+        position: absolute;
+        top: 40%;
+        right: 4rem;
+    }
 }
 
 /*
